@@ -1,0 +1,43 @@
+const STRING_CONSTANTS = {
+    ERROR: 'Error',
+    EXISTING_EMAIL: 'Email Already Registered',
+    LOGIN_SUCCESS: 'Login Successful',
+    CREATION_SUCCESS: 'Record Created Successfully',
+    USER_INACTIVE: 'User is currently In Active',
+    INVALID_CREDENTIALS: 'Invalid User Credentials',
+    NEW_ACCESS_TOKEN: 'New Access Token',
+    INCORRECT_OLD_PASSWORD: 'Incorrect Old Password',
+    UPDATED_MESSAGE: 'Record Updated Successfully',
+    ACCESS_TOKEN_EXPIRED: 'Access Token Expired',
+    ACCESS_TOKEN_REQUIRED: 'Access Token Required',
+    REFRESH_TOKEN_EXPIRED: 'Refresh Token Expired',
+    REFRESH_TOKEN_REQUIRED: 'Access Token Required',
+    API_KEY_NOT_FOUND: 'No api key found in request',
+    PLATFORM_NOT_FOUND: 'No platform found in request',
+    INVALID_APIKEY_OR_PLATFORM: 'Invalid api key or platform',
+    TRAINER_FOUND: 'Trainer data found successfully',
+    TRAINERS_NOT_EXIST: 'Please provide the valid trainerId',
+    TRAINERS_LIST: 'Trainers List found Successfully',
+    TRAINER_ID_REQUIRED: 'Trainer Id is required in params',
+    NEWPASSWORD_NOT_SAME_OLDPASSWORD: 'New Password is not same as old Password',
+    FETCH_AVAILABLE_SLOTS: 'Available slots fetched',
+    TOP_UP_SUCCESS: 'Wallet topped up successfully',
+    MEMBER_TOP_UP_WALLET: 'Only members can top up wallet',
+    MEMBER_NOT_EXIST: 'Memeber not found',
+    SESSION_START_MUST_BEFORE_ENDTIME: 'Session start time must be before end time',
+    SESSION_NOT_IN_PAST: 'Session start time cannot be in the past',
+    SESSION_TIME_OVERLAP_EXISTING_SLOT: 'This session time overlaps with an existing slot.',
+    SLOT_ADDED: 'Slot added successfully',
+    ONLY_TRAINERS_ADD_SLOTS: 'Only trainers can add slots',
+    ONLY_TRAINERS_VIEW_BOOKING: 'Only trainers can view bookings',
+    BOOKING_FETCH_SUCCESSFULLY: 'Bookings fetched successfully',
+    ONLY_MEMBER_BOOK_SESSION: 'Only members can book sessions',
+    SLOT_NOT_FOUND_OR_ALREADY_BOOK: 'Slot not found or already booked',
+    BOOKING_FAILED_DUE_TO_INSUFFICIENT_BALENCE: 'Booking failed due to Insufficient wallet balance',
+    SESSION_BOOKED_SUCCESS: 'Session booked successfully'
+
+};
+
+module.exports = {
+    STRING_CONSTANTS,
+};
